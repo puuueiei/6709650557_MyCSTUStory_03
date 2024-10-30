@@ -172,7 +172,15 @@ section {
 }
 
 @media (max-width: 600px) {
-    
+    nav a {
+        font-size: 15px;
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px 0;
+    }
+    .Text {
+        font-size: 15px;
+    }
     .des {
         font-size: 10px;
     }
