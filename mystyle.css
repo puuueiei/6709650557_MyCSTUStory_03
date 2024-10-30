@@ -170,3 +170,95 @@ section {
         font-style: normal;
         font-size: large;
 }
+
+@media (max-width: 600px) {
+    
+    .des {
+        font-size: 10px;
+    }
+
+    .introduction-link a {
+        color: #252525; 
+        text-decoration: none; 
+        margin-right: 20px; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 10px 10px;
+        background-color: #b2b2b2 ;
+    
+    }
+    
+    .introduction-link a:hover {
+        text-decoration: underline; 
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 5px;
+    }
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .right, .left {
+        width: 60px;
+        max-width: 100%;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        position: relative;
+        padding: 10px;
+    }
+
+    #content {
+        padding: 15px;
+        margin: 10px auto;
+        max-width: 90%;
+    }
+
+    .spon-container {
+        gap: 5px;
+        padding: 10px;
+    }
+    .spon {
+        width: 50px;
+    }
+
+    .topic {
+        padding: 10px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .spon {
+        width: 80px;
+    }
+
+    .video-container video {
+        width: 80%;
+        height: auto;
+    }
+
+    #content {
+        max-width: 90%;
+    }
+
+    .right, .left {
+        width: 80px;
+    }
+}
